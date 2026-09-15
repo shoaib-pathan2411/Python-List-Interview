@@ -22,13 +22,14 @@ def missing_numbers2(lst):
     smallest = lst[0]
     largest = lst[0]
     # pdb.set_trace()
-    print(smallest)
-    print(largest)
     for num in lst:
         if num < smallest:
             smallest = num
         if num > largest:
             largest = num
+            
+    print(smallest)
+    print(largest)
 
     for i in range(smallest, largest+1):
         if i not in result:

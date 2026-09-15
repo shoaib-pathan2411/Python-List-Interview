@@ -5,5 +5,4 @@ def pair_sum(lst, target):
                 # return lst[i], lst[j]
                 return i, j
 
-
 print(pair_sum([1,2,3,4,5,6,7,9], 9))

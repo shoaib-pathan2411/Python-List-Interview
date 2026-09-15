@@ -9,4 +9,4 @@ def find_missing(list1):
     return total - actual
 
 
-print(find_missing([1,2,3,4,5,7,6,9]))
+print(find_missing([1,2,3,4,7,6,9,8]))

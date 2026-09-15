@@ -24,4 +24,4 @@ def alpha(lst):
         return greater_element
         # result1.append(greater_element)
     # return result1
-print(alpha([16, 17, 4, 3, 5, 2]))
+print(alpha([16, 17, 18, 4, 3, 5, 2]))

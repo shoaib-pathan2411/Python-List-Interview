@@ -28,11 +28,13 @@ def missing_numbers2(lst):
         if num > largest:
             largest = num
             
-    print(smallest)
-    print(largest)
+    # print(smallest)
+    # print(largest)
 
     for i in range(smallest, largest+1):
-        if i not in result:
-            result.append(i)
-    return result
+        # if i not in result:
+    #         result.append(i)
+    # return result
+        if i not in lst:
+            print(i)
 print(missing_numbers2([1,3,5,7,9]))
